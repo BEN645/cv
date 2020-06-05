@@ -1,0 +1,134 @@
+body
+{
+    width: 50%;
+}
+.page
+{
+    background-color: rgb(224, 216, 205);
+    background-attachment: fixed;
+    width: 990px;
+    height: 100%;
+    border: 03px rgb(241, 6, 6) double;
+    border-radius: 80px;
+    position: relative;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#profil
+{
+    position: relative;
+    left: 680px;
+    top:5px;
+
+}
+.adresse
+{
+    border: 5px rgb(245, 16, 8) solid;
+    background-color: rgb(182, 156, 102);
+    border-radius: 50px;
+}
+img
+{
+    border-radius: 130px;
+    box-shadow: 05px 14px 35px rgb(156, 8, 8);
+    border: 29px rgb(94, 4, 4) 1;
+    
+}
+.nam
+{
+    box-shadow: rgb(245, 244, 244) 10px;
+    position: relative;
+    left: 01%;
+    top: -10px;
+    font-size: 2.8em;
+    text-shadow: honeydew 10px 10px 10px;
+    color: rgb(94, 4, 4);
+    
+    
+}
+.partie1
+{
+   position: absolute;
+   top: 03px;
+   left: 35px;
+   font-size: 1.1em;
+}
+h2
+{
+    text-align: center;
+    border:1px  rgb(238, 255, 0) solid;
+    border-radius: 12px;
+    background-color: rgb(216, 213, 186);
+    text-shadow: rgb(114, 11, 11) 10PX 15PX 10PX;
+    box-shadow: 12px 12px 12px rgb(32, 22, 22);
+    color: rgb(94, 4, 4);
+    padding: -3px;
+    margin: auto;
+    
+    
+    
+    
+    
+}
+.partie2,.partie3,.partie4,.partie5,.partie6
+{
+    text-align: justify;
+    padding: 50px;
+    background-image: url("images/hi.jpg");
+    font-style: italic;
+    font-size: 1.3em;
+    background-attachment: fixed;
+    
+
+    
+    
+}
+.icon,.icon2,.icon3,.icon4
+{
+    position: relative;
+    right: 12px;
+    top: 05px;
+}
+.file
+{
+    box-shadow: brown;
+}
+.adresse2
+{
+    
+    width: 28%;
+    
+    border: 1px rgb(228, 220, 156) ridge;
+    border-radius: 10px;
+    position: relative;
+    left: 350px;
+    
+    
+    
+}
+.marque
+{
+    border: 1px red ridge;
+    border-radius: 12px;
+    background-color: rgb(203, 166, 166);
+    position: relative;
+    left: 05%
+    bottom: 0px;
+}
+.boutton
+{
+    background-color: cornflowerblue;
+}
+
+
+@media only screen and (max-width:320px)
+{
+    h2
+    {
+        background-color: rgba(18, 18, 109, 0.63);
+        color: red;
+    }
+}
